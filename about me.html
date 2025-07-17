@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Me</title>
+  <style>
+    body {
+      background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+      min-height: 100vh;
+      margin: 0;
+      font-family: 'Segoe UI', Arial, sans-serif;
+    }
+
+    section {
+      max-width: 500px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+      padding: 32px 24px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      font-weight: bold;
+      background: linear-gradient(90deg, #ff512f, #dd2476);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 18px;
+      letter-spacing: 2px;
+    }
+
+    .profile-pic {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 18px;
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.10);
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #333;
+      line-height: 1.7;
+      margin-bottom: 0;
+    }
+
+    .quote {
+      margin-top: 28px;
+      margin-bottom: 10px;
+      display: inline-block;
+      font-size: 1.25em;
+      font-family: Georgia, serif;
+      font-weight: 500;
+      color: #dd2476;
+      background: #f6d36522;
+      padding: 10px 18px;
+      border-radius: 8px;
+    }
+
+    .signature {
+      margin-top: 8px;
+      width: 300px;
+      height: 100px;
+      opacity: 0.8;
+    }
+
+    .button {
+      margin: 16px auto 0 auto;
+      display: block;
+      padding: 10px 32px;
+      border-radius: 24px;
+      border: none;
+      font-size: 1.15em;
+      font-weight: bold;
+      color: #fff;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.10);
+    }
+
+    #backBtn {
+      background: linear-gradient(90deg, #0072ff, #00c6ff);
+    }
+
+    #backBtn:hover {
+      background: linear-gradient(90deg, #00c6ff, #0072ff);
+      transform: scale(1.05);
+    }
+
+    #profileBtn {
+      background: linear-gradient(90deg, #43cea2, #185a9d);
+    }
+
+    #profileBtn:hover {
+      background: linear-gradient(90deg, #185a9d, #43cea2);
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <section>
+    <h1>About Me!</h1>
+
+    <img src="https://media.assettype.com/outlookbusiness/2025-03-30/0z250yc9/k43GMz63400x400.jpg?w=400&amp;auto=format%2Ccompress&amp;fit=max&amp;format=webp&amp;dpr=1.0" 
+         alt="Profile Picture" class="profile-pic" />
+
+    <p>
+      Hi! I'm Aryan Negi, a passionate learner currently exploring the world of coding, animation, and video editing.<br>
+      I love creating digital content and combining my technical skills with creativity to make something unique and impactful.<br>
+      My goal is to keep growing, learning, and sharing my journey with others.
+    </p>
+
+    <div class="quote">
+      <i>"DON'T BELIEVE IN LUCK, BELIEVE IN HARD WORK!"</i>
+    </div>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCxpu-ZPdyyNsqbYhQ20JNCFq7TUp9LcRArBdkK72MC_emGjg7tKAgsIex9RYiy26pCI&usqp=CAU" 
+         alt="Signature" class="signature" />
+
+    <!-- Back to Home Button -->
+    <a href="index.html" style="text-decoration: none;">
+      <button id="backBtn" class="button">← Back to home</button>
+    </a>
+
+    <!-- Go to My Profile Button -->
+    <a href="https://aryan-negi151.github.io/index.html" target="_blank" style="text-decoration: none;">
+      <button id="profileBtn" class="button">🔗 Go to My Profile</button>
+    </a>
+  </section>
+</body>
+</html>
